@@ -29,9 +29,22 @@
 		04D3BD462CDF6D660072224C /* palmapayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = palmapayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		042A167A2CDFA4A30087D8F7 /* Exceptions for "palmapay" folder in "palmapay" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 04D3BD292CDF6D630072224C /* palmapay */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		04D3BD2C2CDF6D630072224C /* palmapay */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				042A167A2CDFA4A30087D8F7 /* Exceptions for "palmapay" folder in "palmapay" target */,
+			);
 			path = palmapay;
 			sourceTree = "<group>";
 		};
@@ -195,6 +208,9 @@
 			);
 			mainGroup = 04D3BD212CDF6D630072224C;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				042A16642CDF965B0087D8F7 /* XCRemoteSwiftPackageReference "SVGKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 04D3BD2B2CDF6D630072224C /* Products */;
 			projectDirPath = "";
@@ -399,6 +415,9 @@
 				DEVELOPMENT_TEAM = NWTU8FZ93B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = palmapay/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +447,9 @@
 				DEVELOPMENT_TEAM = NWTU8FZ93B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = palmapay/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -558,6 +580,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		042A16642CDF965B0087D8F7 /* XCRemoteSwiftPackageReference "SVGKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SVGKit/SVGKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 04D3BD222CDF6D630072224C /* Project object */;
 }

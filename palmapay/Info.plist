@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <!-- Add your custom fonts here -->
+    <key>UIAppFonts</key>
+    <array>
+      <string>fonts/NeueMontreal-Regular.otf</string>
+      <string>fonts/NeueMontreal-Medium.otf</string>
+      <string>fonts/NeueMontreal-Light.otf</string>
+      <string>fonts/NeueMontreal-Italic.otf</string>
+      <string>fonts/NeueMontreal-MediumItalic.otf</string>
+      <string>fonts/NeueMontreal-BoldItalic.otf</string>
+      <string>fonts/NeueMontreal-LightItalic.otf</string>
+      <string>fonts/NeueMontreal-Bold.otf</string>
+    </array>
+  </dict>
+</plist>
